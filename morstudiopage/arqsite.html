@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>morstudio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">morstudio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <img src="logomor.png" alt="+">
+      <h1>morstudio</h1>
+      <p>We create stunning designs stuff.</p>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-item">
+            <h3>Architecture Design</h3>
+            <p>We provide innovative and sustainable architectural designs tailored to your needs.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <h3>Interior Design</h3>
+            <p>Our interior design experts will transform your space into a beautiful and functional environment.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <h3>Project Management</h3>
+            <p>From concept to completion, we oversee every aspect of your project to ensure its success.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Portfolio -->
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <h2>Our Portfolio</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#portfolioModal1">
+            <img src="https://via.placeholder.com/300" alt="Portfolio Item 1">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#portfolioModal1">
+            <img src="https://via.placeholder.com/300" alt="Portfolio Item 1">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#portfolioModal1">
+            <img src="https://via.placeholder.com/300" alt="Portfolio Item 1">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#portfolioModal1">
+            <img src="https://via.placeholder.com/300" alt="Portfolio Item 1">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#portfolioModal1">
+            <img src="https://via.placeholder.com/300" alt="Portfolio Item 1">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="portfolio-item">
+          <a href="#" data-toggle="modal" data-target="#portfolioModal1">
+            <img src="https://via.placeholder.com/300" alt="Portfolio Item 1">
+          </a>
+        </div>
+      </div>
+      <!-- Add more portfolio items similarly -->
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Modals -->
+<div class="portfolio-modal">
+  <!-- Portfolio Modal 1 -->
+  <div class="modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="portfolioModal1Label">Portfolio Item 1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="https://via.placeholder.com/600" class="img-fluid" alt="Portfolio Item 1">
+          <p>Description of Portfolio Item 1</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Add more Portfolio Modals similarly -->
+</div>
+
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 morstudio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
